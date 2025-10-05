@@ -1,11 +1,19 @@
+# import streamlit as st
+# import pandas as pd
+# import requests
+# import json  # Import the json module
+# from streamlit_autorefresh import st_autorefresh
+# from datetime import datetime, time, timedelta
+# import pytz
+# import base64
+
 import streamlit as st
 import pandas as pd
-import requests
-import json  # Import the json module
-from streamlit_autorefresh import st_autorefresh
-from datetime import datetime, time, timedelta
+import plotly.express as px
+from datetime import datetime, timedelta, time
 import pytz
-import base64
+from streamlit_autorefresh import st_autorefresh
+
 
 # Loading Data
 
