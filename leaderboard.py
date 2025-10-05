@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import requests
-import plotly.express as px
 import json  # Import the json module
 import plotly.express as px
 from streamlit_autorefresh import st_autorefresh
